@@ -1,0 +1,324 @@
+*{
+    margin: 0;padding: 0;
+}
+
+nav #logo{
+    height: 72px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+}
+
+nav #logo img{
+    height: 2.5rem;
+    margin-left: 2rem;
+}
+
+nav #logo .shop{
+    gap: 2rem;
+    display: flex;
+    font-size: 1.6rem;
+    margin: 0rem 32rem 0rem 2rem;
+}
+
+nav #logo .shop a{
+    text-decoration: none;
+    color: black;
+}
+
+nav #logo .pin-code{
+    margin-left: 2rem;
+    gap: 2rem;
+    display: flex;
+    font-size: 1.6rem;
+}
+
+nav #logo .pin-code a{
+    text-decoration: none;
+    color: black;
+}
+
+nav #logo .pin-code span{
+    text-decoration: underline;
+}
+
+/* -- -----------------------second navigation--------------------- -- */
+
+#sec-nav img{
+    width: 100%;
+}
+
+
+/* -- -----------------------third navigation--------------------- -- */
+
+
+#third{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    width: 100%;
+    
+}
+
+#third div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* margin-left: 2rem; */
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+#third div img{
+    height: 2rem;
+    margin-left: 2rem;
+}
+
+#third div p{
+    font-size: 1.3rem;
+}
+
+#third div .p1{
+    margin-left: 5rem;
+}
+
+/* -- -----------------------fourth navigation--------------------- -- */
+
+
+.h11{
+    background-color: #f0ece4;
+    display: flex;
+    justify-content: center;
+}
+
+.h11 h1{
+    margin-top: 5rem;
+}
+
+#box{
+    height: 400px;
+    width: 100%;
+    background-color: #f0ece4;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#box div{
+    height: 300px;
+    width: 20%;
+    display: grid;
+    border-radius: 10px;
+    grid-template-rows: repeat(4,1fr);
+    justify-content: center;
+    background-color: white;
+}
+
+#box img{
+    height: 150px;
+}
+#box h1{
+    color: black;
+}
+
+#box p{
+    font-size: 0.9rem;
+}
+
+#box .box-1 a{
+    border: 1px solid red;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: red;
+    border-radius: 17px;
+}
+
+#box .box-1 a:hover{
+    background-color: red;
+    color: white;
+}
+
+/* -- -----------------------fivth navigation--------------------- -- */
+
+
+
+#Holiday{
+    display: grid;
+    justify-content: center;
+    background-color: #f0ece4;
+    line-height: 3rem;
+}
+
+#Holiday h1{
+    margin-top: 4rem;
+}
+
+#Holiday a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    display: grid;
+    justify-content: center;
+    border-radius: 2.5rem 
+}
+
+#Holiday a:hover{
+    background-color: #fff;
+    color: black;
+    border-radius:1px solid black;
+}
+
+
+#top-deal{
+    background-color: #f0ece4;
+
+}
+#top-deal ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+#top-deal ul li{
+    margin-top: 2rem;
+    list-style: none;
+}
+
+
+/* -- -----------------------sixth navigation--------------------- -- */
+
+#doub{
+    height: 400px;
+    width: 100%;
+    background-color: #f0ece4;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#doub .doub-1{
+    height: 350px;
+    width: 20%;
+    /* display: grid; */
+    border-radius: 10px;
+    grid-template-rows: repeat(4,1fr);
+    justify-content: center;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 9px 1px gray;
+}
+
+#doub .doub-1 img{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#doub .doub-1 p{
+    font-size: 1.5rem;
+    display: grid;
+    justify-content: center;
+}
+
+#doub .doub-1 a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    display:grid;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    width: 50%;
+    margin-top: 0.5rem;
+    margin-left: 3.4rem;
+    padding: 10px;
+    border-radius: 1.5rem;
+
+}
+
+#doub .doub-1 a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* -- -----------------------seventh navigation--------------------- -- */
+
+#hello{
+    height: 400px;
+    background-color:#e5e1d7;
+    display: flex;
+}
+
+#hello .hello-1{
+   align-items: center;
+    display: grid;
+    margin-left: 5rem
+}
+
+#hello .hello-1 img{
+    height: 250px;
+    border-radius: 16px 0px 0px 16px;
+}
+
+#hello .white{
+    height: 272px;
+    width: 45%;
+    background-color: #fff;
+    position: absolute;
+    margin-left: 40rem;
+    margin-top: 4.6rem;
+    border-radius: 10px 64px 64px 110px;
+}
+
+#hello .white div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hello .white div h2{
+    margin-top: 1rem;
+}
+
+#hello .white div p{
+    font-size: 1.2rem;
+}
+
+#hello .white div a{
+    text-decoration: none;
+    color: white;
+    margin-top: 1rem;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 1.5rem;
+}
+#hello .white div a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* -- -----------------------seventh navigation--------------------- -- */
+
+
+#doub-2{
+    height: 400px;
+    width: 100%;
+    background-color: #f0ece4;
+}
+
+
+
+#doub-2 .doub-3 img{
+    height: 150px;
+}
+
+
+
