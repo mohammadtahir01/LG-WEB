@@ -58,6 +58,7 @@ nav #logo .pin-code span{
     grid-template-columns: repeat(4,1fr);
     align-items: center;
     width: 100%;
+    padding: 2rem 0rem;
     
 }
 
@@ -65,8 +66,6 @@ nav #logo .pin-code span{
     display: flex;
     align-items: center;
     gap: 1rem;
-    /* margin-left: 2rem; */
-    height: 100px;
     width: 100%;
     background-color: white;
 }
@@ -91,29 +90,26 @@ nav #logo .pin-code span{
     background-color: #f0ece4;
     display: flex;
     justify-content: center;
+    padding: 2rem 0rem;
 }
 
-.h11 h1{
-    margin-top: 5rem;
-}
 
 #box{
-    height: 400px;
+    padding: 3rem 0rem;
     width: 100%;
     background-color: #f0ece4;
     display: flex;
     justify-content:space-evenly;
-    align-items: center;
 }
 
 #box div{
-    height: 300px;
+    height: auto;
     width: 20%;
     display: grid;
     border-radius: 10px;
-    grid-template-rows: repeat(4,1fr);
     justify-content: center;
     background-color: white;
+    padding: 0rem 0rem 1.5rem;
 }
 
 #box img{
@@ -137,6 +133,7 @@ nav #logo .pin-code span{
     text-decoration: none;
     color: red;
     border-radius: 17px;
+    padding: 5px 10px;
 }
 
 #box .box-1 a:hover{
@@ -153,11 +150,9 @@ nav #logo .pin-code span{
     justify-content: center;
     background-color: #f0ece4;
     line-height: 3rem;
+    padding: 2rem 0rem;
 }
 
-#Holiday h1{
-    margin-top: 4rem;
-}
 
 #Holiday a{
     text-decoration: none;
@@ -178,6 +173,7 @@ nav #logo .pin-code span{
 
 #top-deal{
     background-color: #f0ece4;
+    padding: 2rem 0rem;
 
 }
 #top-deal ul{
@@ -187,7 +183,6 @@ nav #logo .pin-code span{
 }
 
 #top-deal ul li{
-    margin-top: 2rem;
     list-style: none;
 }
 
@@ -195,30 +190,32 @@ nav #logo .pin-code span{
 /* -- -----------------------sixth navigation--------------------- -- */
 
 #doub{
-    height: 400px;
+    height: auto;
     width: 100%;
     background-color: #f0ece4;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
+    padding: 4rem 0rem;
 }
 
 #doub .doub-1{
-    height: 350px;
+    height: auto;
     width: 20%;
-    /* display: grid; */
     border-radius: 10px;
     grid-template-rows: repeat(4,1fr);
     justify-content: center;
     background-color: black;
     color: white;
     box-shadow: 5px 5px 9px 1px gray;
+    padding: 0rem 0rem 1rem;
 }
 
 #doub .doub-1 img{
-    height: 200px;
     width: 100%;
     border-radius: 5px 5px 0px 0px;
+    -webkit-mask-image:linear-gradient(black, transparent);
+    mask-image: linear-gradient(black 0%, transparent 90%);
 }
 
 #doub .doub-1 p{
@@ -251,7 +248,7 @@ nav #logo .pin-code span{
 /* -- -----------------------seventh navigation--------------------- -- */
 
 #hello{
-    height: 400px;
+    padding: 2rem 0rem;
     background-color:#e5e1d7;
     display: flex;
 }
@@ -259,22 +256,24 @@ nav #logo .pin-code span{
 #hello .hello-1{
    align-items: center;
     display: grid;
-    margin-left: 5rem
+    margin-left: 8rem
 }
 
 #hello .hello-1 img{
-    height: 250px;
+    height: 230px;
     border-radius: 16px 0px 0px 16px;
+    -webkit-mask-image:linear-gradient(black, transparent);
+    mask-image: linear-gradient(black 0%, transparent 100%);
 }
 
 #hello .white{
-    height: 272px;
+    height: auto;
     width: 45%;
     background-color: #fff;
     position: absolute;
     margin-left: 40rem;
-    margin-top: 4.6rem;
-    border-radius: 10px 64px 64px 110px;
+    /* margin-top: 4.6rem; */
+    border-radius: 10px 64px 64px 72px;
 }
 
 #hello .white div{
@@ -309,16 +308,414 @@ nav #logo .pin-code span{
 
 
 #doub-2{
-    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
     width: 100%;
     background-color: #f0ece4;
+    padding: 2rem 0rem 
+}
+
+#doub-2 .doub-3{
+    height: auto;
+    width: 30%;
+    border-radius: 10px;
+    background-color: black;
+    padding: 0rem 0rem 1rem;
+}
+
+#doub-2 .doub-4{
+    height: auto;
+    width: 20%;
+    border-radius: 10px;
+    background-color:black;
+    padding: 0rem 0rem 1rem;
 }
 
 
 
 #doub-2 .doub-3 img{
-    height: 150px;
+    height: auto;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-mask-image:linear-gradient(black, transparent);
+    mask-image: linear-gradient(black 0%, transparent 90%);
+}
+
+
+#doub-2 .doub-3 h2{
+    margin-left: 2rem;
+    color: white;
+    position: relative;
+    margin-top: -2rem;
+}
+
+#doub-2 .doub-3 p{
+    margin-left: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 5px;
+}
+#doub-2 .doub-3 .b{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#doub-2 .doub-3 .b a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    padding: 6px 50px;
+}
+
+#doub-2 .doub-3 .c{
+    margin-top: 1rem;
+}
+
+#doub-2 .doub-3 .b a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#doub-2 .doub-3 h3{
+    color: white;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+#doub-2 .doub-4 img{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px 10px;
+    -webkit-mask-image:linear-gradient(black, transparent);
+    mask-image: linear-gradient(black 0%, transparent 90%);
+}
+
+#doub-2 .doub-4 h2{
+    color: #fff;
+    margin-left: 2rem;
+
+}
+
+#doub-2 .doub-4 p{
+    color: #fff;
+    margin-left: 2rem;
+    margin-top: 0.9rem;
+}
+
+
+#doub-2 .doub-4 .sec-b{
+    margin-top: 5.5rem;
+}
+
+
+#doub-2 .doub-4 a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    margin-left: 4rem;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+#doub-2 .doub-4 a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* -- -----------------------tenth navigation--------------------- -- */
+
+#ten-box{
+    height: auto;
+    display: flex;
+    padding: 2rem 0rem;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #f0ece4;
+}
+
+#ten-box .ten-box1{
+    height: auto;
+    /* height: 300px; */
+    width: 30%;
+    border-radius: 10px;
+    background-color: black;
+    padding: 0rem 0rem 2rem;
+}
+
+#ten-box .ten-box2{
+    height: auto;
+    /* height: 300px; */
+    width: 25%;
+    border-radius: 10px;
+    background-color: black;
+    padding: 0rem 0rem 2rem;
+}
+
+#ten-box .ten-box2 img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-mask-image:linear-gradient(black, transparent);
+    mask-image: linear-gradient(black 0%, transparent 90%);
+}
+
+#ten-box .ten-box2 h3{
+    color: white;
+    margin-left: 2rem;
+}
+
+#ten-box .ten-box2 p{
+    color: white;
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+}
+
+#ten-box .ten-box2 a{
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+#ten-box .ten-box2 .ten-b{
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+
+#ten-box .ten-box1 img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-mask-image:linear-gradient(black, transparent);
+    mask-image: linear-gradient(black 0%, transparent 90%);
+}
+
+#ten-box .ten-box1 h2{
+    color: white;
+    margin-left: 2rem;
+    position: relative;
+    margin-top: -1rem;
+  
+
+}
+
+#ten-box .ten-box1 h3{
+    color: white;
+    margin-top: -2rem;
+    margin-left: 3rem;
+}
+
+
+#ten-box .ten-box1 p{
+    color: white;
+    margin-left: 3rem;
+    margin-top: 0.8rem;
+}
+
+#ten-box .ten-box1 a{
+    color: white;
+    margin-left: 6rem;
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+#ten-box .ten-box1 .ten-b{
+    margin-top: 2rem;
+}
+
+/* -- -----------------------Eleven  navigation--------------------- -- */
+
+
+#for-LG{
+    /* height: 400px; */
+    display: flex;
+    background-color: #f0ece4;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 2.5rem 0rem;
+}
+
+/* -- -----------------------twelve  navigation--------------------- -- */
+
+
+#twelve{
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+    background-color:#f0ece4;
+    padding: 3rem 0rem;
+    gap: 2rem;
+
+}
+
+#twelve .twelve-box{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    padding: 1rem 0rem 4rem;
+}
+
+
+#twelve .twelve-box img{
+    margin-left: 2rem;
+}
+
+#twelve .twelve-box h2{
+    margin-left: 2rem;
+    color: #646464;
+}
+
+#twelve .twelve-box p{
+    margin-left: 2rem;
+    color: #646464;
+    margin-top: 3rem;
+}
+
+
+/* -- -----------------------thirteen  navigation--------------------- -- */
+
+#thirteen{
+    /* height: 600px; */
+    background-color: #f1e2c8;
+    padding: 3rem 3rem;
+}
+
+#thirteen p{
+    margin-top: 1rem;
+    /* line-height: 3rem; */
+}
+
+
+#fourteen{
+    display: flex;
+    justify-content: space-between;
+    background-color:#f0ece4;
+    padding: 2rem 2rem 0rem 2rem;
+}
+
+#fourteen .fourteen-1{
+    display: flex;
+    gap: 1rem;
+}
+
+#fourteen .fourteen-2{
+    display: flex;
+    gap: 1rem;
 }
 
 
 
+/* -- -----------------------fifteen  navigation--------------------- -- */
+
+
+#fifteen{
+  background-color: #f0ece4;
+  /* height: 500px; */
+  width: 100%;
+  display: flex;
+  padding: 3rem 0rem 2rem;
+
+}
+
+#fifteen .fifteen-1{
+    width: 20%;
+    background-color:#f0ece4;
+    padding: 1rem 1rem 0rem 3rem;
+    line-height:2rem;
+
+}
+
+#fifteen .virtical{
+    width: 1px;
+    /* height: 500px; */
+    background-color:#646464;
+}
+
+#fifteen .fifteen-1 ul li{
+    list-style: none;
+    color: #646464;
+}
+
+#fifteen .fifteen-1 span{
+    font-weight: bold;
+    color: black;
+}
+
+
+/* -- -----------------------sixteen navigation--------------------- -- */
+
+#sixteen{
+    height: 400px;
+    width: 100%;
+    background-color: #646464;
+    display: flex;
+
+}
+
+#sixteen .sixteen-1{
+    height: 300px;
+    width: 50%;
+    /* background-color: white; */
+    padding: 3rem 1rem 0rem 2rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+#sixteen .sixteen-1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#sixteen .sixteen-1 a:hover{
+    text-decoration: underline;
+    color: rgb(27, 27, 229);
+}
+
+#sixteen .sixteen-1 .lg-2{
+    margin-top: 5rem;
+}
+
+#sixteen .sixteen-1 .lg-2 img{
+    height: 4rem;
+}
+
+#sixteen .sixteen-1 .lg-2 p{
+   color: #fff;
+}
+
+#sixteen .sixteen-last{
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+
+}
+
+#sixteen .sixteen-last img{
+    height: 6rem;
+    border-radius: 10px 0px 0px 10px;
+}
+#sixteen .sixteen-last a{
+    color: black;
+    text-decoration: none;
+}
+
+
+#sixteen .sixteen-last a:hover{
+  text-decoration: underline;
+  color: rgb(27, 27, 229);
+}
+#sixteen .sixteen-last div{
+  background-color: #fff;
+  padding: 21px 20px ;
+  border-radius: 0px 10px 10px 0px;
+}
