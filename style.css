@@ -3,8 +3,9 @@
 }
 
 nav #logo{
-    height: 72px;
+    /* height: 72px; */
     width: 100%;
+    padding: 1rem 0rem 1rem 0rem;
     background-color: bisque;
     display: flex;
     align-items: center;
@@ -665,7 +666,6 @@ nav #logo .pin-code span{
 #sixteen .sixteen-1{
     height: 300px;
     width: 50%;
-    /* background-color: white; */
     padding: 3rem 1rem 0rem 2rem;
     line-height: 2rem;
     font-size: 1.2rem;
@@ -718,4 +718,186 @@ nav #logo .pin-code span{
   background-color: #fff;
   padding: 21px 20px ;
   border-radius: 0px 10px 10px 0px;
+}
+
+
+@media (max-width:450px){
+
+    nav #logo{
+        width: 100%;
+    }
+
+    nav #logo .shop a{
+        display: none;
+    }
+
+    nav #logo .shop{
+       margin: auto;
+    }
+
+    nav #logo .pin-code{
+        /* display: grid; */
+        gap: 0px;
+    }
+
+    nav #logo .pin-code a{
+        margin-right: 3rem;
+    }
+
+    nav #logo .pin-code a .bus{
+        display: none;
+    }
+    nav #logo .pin-code span{
+        display: none;
+    }
+
+    #third{
+        display: none;
+    }
+
+    .h11{
+        padding: 2rem 2rem 1rem 2.5rem;
+    }
+
+    #box .four{
+        display: none;
+    }
+
+    #box .box-1{
+        width: 40%;
+        padding: 0px;
+    }
+
+
+    #top-deal .lap{
+     display: none;
+    }
+    #top-deal ul{
+
+    }
+
+    #top-deal ul li{
+        /* display: flex;
+        overflow-x:auto; */
+    }
+
+    #doub .six{
+        display: none;
+    }
+
+    #doub .doub-1{
+        width: 80%;
+    }
+    #doub .doub-1 a{
+        margin-left: 6rem;
+    }
+
+    #doub .doub-1 p{
+        margin-left: 2rem;
+    }
+
+    #hello{
+        display: grid;
+        padding: 1rem 0rem 0rem 2rem;
+
+    }
+
+    #hello .hello-1{
+       margin: 0px;
+    }
+    
+
+    #hello .hello-1 img{
+       width: 90%;
+       border-radius: 10px 10px 0px 0px;
+    }
+
+    #hello .white{
+        position: relative;
+        margin: 0px;
+        width: 90%;
+        border-radius: 0px 0px 20px 20px;
+        padding: 1rem 0rem;
+    }
+
+    #hello .white h2{
+        font-size: 1rem;
+    }
+
+    #top-deal .deal{
+        display: none;
+    }
+
+    #doub-2 .nine{
+        display: none;
+    }
+
+    #doub-2 .doub-3{
+        width: 90%;
+    }
+
+    #top-deal .deal-1{
+        display: none;
+    }
+
+    #ten-box .ten{
+        display: none;
+    }
+
+    #ten-box .ten-box1{
+        width: 90%;
+    }
+
+    #for-LG{
+        padding: 0rem 1.5rem 0rem 1.5rem;
+    }
+
+    #for-LG .regis{
+        padding: 1.5rem 0rem 1.5rem 0rem;
+    }
+
+
+    #twelve {
+        display: grid;
+        
+    }
+    #twelve .twelve-box {
+        display: grid;
+        width: 64%;
+        margin-left: 6rem;
+    }
+
+    /* #twelve .twelve-box img{
+       
+    } */
+
+
+    #fifteen{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+    }
+
+    #fifteen .fifteen-4{
+        display: none;
+    }
+
+    #fifteen .fifteen-1 .h5{
+       background-color: #f0ece4;
+    }
+
+
+    #sixteen{
+      display: grid;
+      height: 600px;
+    }
+
+    #sixteen .sixteen-1{
+        
+    }
+
+    #sixteen .sixteen-last{
+        margin-left: 2rem;
+        margin-top: 8rem;
+    }
+
 }
